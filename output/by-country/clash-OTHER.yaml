@@ -5,20 +5,16 @@ mode: rule
 log-level: info
 proxies:
 - name: 🌐 其他地区 (Other) 01 - xiaohe
-  server: 104.18.15.103
-  port: 443
+  server: 188.114.97.6
+  port: 8080
   udp: true
   type: vless
-  uuid: 3c6d1933-b22a-484b-ac8a-63e24f5fba75
-  tls: true
-  servername: server9.9966338.xyz
-  skip-cert-verify: false
-  client-fingerprint: chrome
+  uuid: 91875754-7fcc-5ba9-9573-5a43215dfd0f
   network: ws
   ws-opts:
-    path: /imnotarealherox
+    path: /sync
     headers:
-      Host: server9.9966338.xyz
+      Host: node-8966333989-b9acc5.dsjvhbsdcjy.workers.dev
 proxy-groups:
 - name: PROXIES
   type: select
