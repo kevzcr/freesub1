@@ -5,8 +5,8 @@ mode: rule
 log-level: info
 proxies:
 - name: 🇺🇸 美国 (United States) 01 (移动家宽) - xiaohe
-  server: 104.18.46.234
-  port: 2052
+  server: 104.18.34.14
+  port: 2086
   udp: true
   type: vless
   uuid: 47fcef29-ab4e-4aa6-932b-d95a18f28a4e
@@ -15,21 +15,12 @@ proxies:
     path: /
     headers:
       Host: 8nj2r.2k8t.f88.hh.vavava.kdns.fr
-- name: 🇯🇵 日本 (Japan) 02 (家宽) - xiaohe
-  server: 128.241.25.3
-  port: 30021
+- name: 🇹🇷 土耳其 (Turkey) 02 (移动家宽) - xiaohe
+  server: 145.239.30.17
+  port: 2053
   udp: true
   type: vless
-  uuid: 482b62dd-b73e-44eb-bc35-3226746e5d99
-  tls: true
-  servername: d-l28t5-65-b.pbe40wmcujaw726h7cpqernzmawz4stwtrnqve0n1s5reht.workers.dev
-  skip-cert-verify: false
-  client-fingerprint: chrome
-  network: ws
-  ws-opts:
-    path: /@Marisa_kristi
-    headers:
-      Host: d-l28t5-65-b.pbe40wmcujaw726h7cpqernzmawz4stwtrnqve0n1s5reht.workers.dev
+  uuid: 9ef61079-6f7d-4911-9608-943da85d8e6f
 - name: 🇭🇰 中国香港 (Hong Kong) 03 (家宽) - xiaohe
   server: b9bccf5a-tmeqo0-0-1jcwu.hk3.hyhuawei.com
   port: 443
@@ -44,7 +35,7 @@ proxy-groups:
   proxies:
   - AUTO
   - 🇺🇸 美国 (United States) 01 (移动家宽) - xiaohe
-  - 🇯🇵 日本 (Japan) 02 (家宽) - xiaohe
+  - 🇹🇷 土耳其 (Turkey) 02 (移动家宽) - xiaohe
   - 🇭🇰 中国香港 (Hong Kong) 03 (家宽) - xiaohe
 - name: AUTO
   type: url-test
@@ -52,7 +43,7 @@ proxy-groups:
   interval: 300
   proxies:
   - 🇺🇸 美国 (United States) 01 (移动家宽) - xiaohe
-  - 🇯🇵 日本 (Japan) 02 (家宽) - xiaohe
+  - 🇹🇷 土耳其 (Turkey) 02 (移动家宽) - xiaohe
   - 🇭🇰 中国香港 (Hong Kong) 03 (家宽) - xiaohe
 rules:
 - MATCH,PROXIES

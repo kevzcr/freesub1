@@ -6,12 +6,11 @@
     {
       "type": "vless",
       "tag": "🇺🇸 美国 (United States) 01 (移动家宽) - xiaohe",
-      "server": "104.18.46.234",
-      "server_port": 2052,
+      "server": "104.18.34.14",
+      "server_port": 2086,
       "uuid": "47fcef29-ab4e-4aa6-932b-d95a18f28a4e",
       "transport": {
         "type": "ws",
-        "path": "/",
         "headers": {
           "Host": "8nj2r.2k8t.f88.hh.vavava.kdns.fr"
         }
@@ -19,26 +18,10 @@
     },
     {
       "type": "vless",
-      "tag": "🇯🇵 日本 (Japan) 02 (家宽) - xiaohe",
-      "server": "128.241.25.3",
-      "server_port": 30021,
-      "uuid": "482b62dd-b73e-44eb-bc35-3226746e5d99",
-      "tls": {
-        "enabled": true,
-        "server_name": "d-l28t5-65-b.pbe40wmcujaw726h7cpqernzmawz4stwtrnqve0n1s5reht.workers.dev",
-        "insecure": false,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        }
-      },
-      "transport": {
-        "type": "ws",
-        "path": "/@Marisa_kristi",
-        "headers": {
-          "Host": "d-l28t5-65-b.pbe40wmcujaw726h7cpqernzmawz4stwtrnqve0n1s5reht.workers.dev"
-        }
-      }
+      "tag": "🇹🇷 土耳其 (Turkey) 02 (移动家宽) - xiaohe",
+      "server": "145.239.30.17",
+      "server_port": 2053,
+      "uuid": "9ef61079-6f7d-4911-9608-943da85d8e6f"
     },
     {
       "type": "hysteria2",
@@ -58,7 +41,7 @@
       "outbounds": [
         "auto",
         "🇺🇸 美国 (United States) 01 (移动家宽) - xiaohe",
-        "🇯🇵 日本 (Japan) 02 (家宽) - xiaohe",
+        "🇹🇷 土耳其 (Turkey) 02 (移动家宽) - xiaohe",
         "🇭🇰 中国香港 (Hong Kong) 03 (家宽) - xiaohe"
       ]
     },
@@ -67,7 +50,7 @@
       "tag": "auto",
       "outbounds": [
         "🇺🇸 美国 (United States) 01 (移动家宽) - xiaohe",
-        "🇯🇵 日本 (Japan) 02 (家宽) - xiaohe",
+        "🇹🇷 土耳其 (Turkey) 02 (移动家宽) - xiaohe",
         "🇭🇰 中国香港 (Hong Kong) 03 (家宽) - xiaohe"
       ],
       "url": "https://www.gstatic.com/generate_204"

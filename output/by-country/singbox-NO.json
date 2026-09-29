@@ -6,10 +6,10 @@
     {
       "type": "shadowsocks",
       "tag": "🇳🇴 挪威 (Norway) 01 - xiaohe",
-      "server": "80.242.57.97",
-      "server_port": 1,
+      "server": "185.213.23.63",
+      "server_port": 990,
       "method": "chacha20-ietf-poly1305",
-      "password": "9qGcNiZj4uCi7DGSjxlg5Q"
+      "password": "ARgvGZywA+gacgGV26Bvmu05+wZmRW/j+AdU+Z8Bt44="
     },
     {
       "type": "vless",
@@ -32,12 +32,17 @@
       }
     },
     {
-      "type": "shadowsocks",
+      "type": "vless",
       "tag": "🇳🇴 挪威 (Norway) 03 - xiaohe",
-      "server": "185.213.23.63",
-      "server_port": 990,
-      "method": "chacha20-ietf-poly1305",
-      "password": "ARgvGZywA+gacgGV26Bvmu05+wZmRW/j+AdU+Z8Bt44="
+      "server": "norw-mori-4.failspace.top",
+      "server_port": 443,
+      "uuid": "cd3bb7d9-7df3-4644-ac05-c260990ac277",
+      "flow": "xtls-rprx-vision",
+      "tls": {
+        "enabled": true,
+        "server_name": "norw-mori-4.failspace.top",
+        "insecure": false
+      }
     },
     {
       "type": "selector",
