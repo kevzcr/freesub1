@@ -5,13 +5,16 @@
   "outbounds": [
     {
       "type": "vless",
-      "tag": "🇲🇾 马来西亚 (Malaysia) 01 - xiaohe",
-      "server": "platform128.golnamakcert.top",
-      "server_port": 80,
-      "uuid": "e13cf851-b4fd-413b-8d49-146e6eb8e5d4",
+      "tag": "🇧🇷 巴西 (Brazil) 01 - xiaohe",
+      "server": "173.245.49.30",
+      "server_port": 8880,
+      "uuid": "6202b230-417c-4d8e-b624-0f71afa9c75d",
       "transport": {
         "type": "ws",
-        "path": "/platform128"
+        "path": "/",
+        "headers": {
+          "Host": "vms.lifetime36.workers.dev"
+        }
       }
     },
     {
@@ -19,14 +22,14 @@
       "tag": "select",
       "outbounds": [
         "auto",
-        "🇲🇾 马来西亚 (Malaysia) 01 - xiaohe"
+        "🇧🇷 巴西 (Brazil) 01 - xiaohe"
       ]
     },
     {
       "type": "urltest",
       "tag": "auto",
       "outbounds": [
-        "🇲🇾 马来西亚 (Malaysia) 01 - xiaohe"
+        "🇧🇷 巴西 (Brazil) 01 - xiaohe"
       ],
       "url": "https://www.gstatic.com/generate_204"
     },
