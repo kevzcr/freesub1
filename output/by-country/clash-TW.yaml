@@ -18,7 +18,7 @@ proxies:
   udp: true
   type: hysteria2
   password: H7mP2xY9kJ4nQ8wR5tF6vB3z
-  sni: https://t.me/oneclickvpnkeys
+  sni: 103.115.109.49
   skip-cert-verify: true
 - name: 🇹🇼 中国台湾 (Taiwan) 03 - xiaohe
   server: 160.187.100.109
@@ -29,14 +29,6 @@ proxies:
   sni: 160.187.100.109
   skip-cert-verify: true
 - name: 🇹🇼 中国台湾 (Taiwan) 04 - xiaohe
-  server: sbgfgov.vip23.wogacnmnagfwgov.com
-  port: 11223
-  udp: true
-  type: vmess
-  uuid: 605956ee-544d-308e-8b90-51e67c6ea8da
-  alterId: 2
-  cipher: auto
-- name: 🇹🇼 中国台湾 (Taiwan) 05 - xiaohe
   server: sbgfgov.vip24.wogacnmnagfwgov.com
   port: 11224
   udp: true
@@ -44,8 +36,8 @@ proxies:
   uuid: 605956ee-544d-308e-8b90-51e67c6ea8da
   alterId: 2
   cipher: auto
-- name: 🇹🇼 中国台湾 (Taiwan) 06 - xiaohe
-  server: 60.248.219.78
+- name: 🇹🇼 中国台湾 (Taiwan) 05 - xiaohe
+  server: 59.125.69.23
   port: 443
   udp: true
   type: vless
@@ -68,7 +60,6 @@ proxy-groups:
   - 🇹🇼 中国台湾 (Taiwan) 03 - xiaohe
   - 🇹🇼 中国台湾 (Taiwan) 04 - xiaohe
   - 🇹🇼 中国台湾 (Taiwan) 05 - xiaohe
-  - 🇹🇼 中国台湾 (Taiwan) 06 - xiaohe
 - name: AUTO
   type: url-test
   url: https://www.gstatic.com/generate_204
@@ -79,6 +70,5 @@ proxy-groups:
   - 🇹🇼 中国台湾 (Taiwan) 03 - xiaohe
   - 🇹🇼 中国台湾 (Taiwan) 04 - xiaohe
   - 🇹🇼 中国台湾 (Taiwan) 05 - xiaohe
-  - 🇹🇼 中国台湾 (Taiwan) 06 - xiaohe
 rules:
 - MATCH,PROXIES
