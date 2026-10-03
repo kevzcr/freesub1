@@ -5,20 +5,20 @@
   "outbounds": [
     {
       "type": "vless",
-      "tag": "🌐 其他地区 (Other) 01 - xiaohe",
-      "server": "undef.network",
-      "server_port": 2053,
-      "uuid": "aa5d861a-7799-41a7-bdf4-7a6414cf98fd",
+      "tag": "🇯🇵 日本 (Japan) 01 (家宽) - xiaohe",
+      "server": "203.137.165.164",
+      "server_port": 57554,
+      "uuid": "e5b2a063-a114-4bd0-802d-b2da1fe1d1da",
       "tls": {
         "enabled": true,
-        "server_name": "uwu.blueknightnet.qzz.io",
+        "server_name": "9-7u3b6e.wzkija0v0du4yhk6jfyfafml3nh22kne.workers.dev",
         "insecure": false
       },
       "transport": {
         "type": "ws",
-        "path": "/@BlueKnight_net--@BlueKnight_net--@BlueKnight_net--@BlueKnight_net--@BlueKnight_net--@BlueKnight_net",
+        "path": "/@Marisa_kristi",
         "headers": {
-          "Host": "uwu.blueknightnet.qzz.io"
+          "Host": "9-7u3b6e.wzkija0v0du4yhk6jfyfafml3nh22kne.workers.dev"
         }
       }
     },
@@ -27,14 +27,14 @@
       "tag": "select",
       "outbounds": [
         "auto",
-        "🌐 其他地区 (Other) 01 - xiaohe"
+        "🇯🇵 日本 (Japan) 01 (家宽) - xiaohe"
       ]
     },
     {
       "type": "urltest",
       "tag": "auto",
       "outbounds": [
-        "🌐 其他地区 (Other) 01 - xiaohe"
+        "🇯🇵 日本 (Japan) 01 (家宽) - xiaohe"
       ],
       "url": "https://www.gstatic.com/generate_204"
     },
